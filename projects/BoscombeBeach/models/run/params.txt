@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% XBeach parameter settings input file                                     %%%
+%%%                                                                          %%%
+%%% date:     21-Oct-2016 14:32:21                                           %%%
+%%% function: xb_write_params                                                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% General %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+wavemodel    = surfbeat
+
+%%% Grid parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+depfile      = bed.dep
+posdwn       = 0
+nx           = 141
+ny           = 114
+alfa         = 0
+vardx        = 1
+xfile        = x.grd
+yfile        = y.grd
+xori         = 412500
+yori         = 90700
+thetamin     = -90
+thetamax     = 90
+dtheta       = 20
+
+%%% Model time %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+tstop        = 3700
+
+%%% Morphology parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+morfac       = 5
+morstart     = 100
+
+%%% Tide boundary conditions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+zs0file      = tide.txt
+tideloc      = 1
+
+%%% Wave boundary condition parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+wbctype       = jonstable
+
+%%% Wave-spectrum boundary condition parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+bcfile       = waves.txt
+
+
+%%% Output variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+outputformat = netcdf
+tintg        = 100
+tintm        = 3600
+tstart       = 0
+
+nglobalvar   = 7
+zb
+zs
+H
+hh
+sedero
+ue
+ve
+
+nmeanvar     = 7
+zb
+zs
+H
+hh
+sedero
+ue
+ve
