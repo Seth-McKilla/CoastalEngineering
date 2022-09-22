@@ -1,0 +1,2 @@
+   Unknown, unused or multiple statements of parameterWAVEMODEL inparams.txt
+   Unknown, unused or multiple statements of parameterBEFRICCOEF inparams.txt

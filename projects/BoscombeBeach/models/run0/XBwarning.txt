@@ -1,3 +1,0 @@
-   Unknown, unused or multiple statements of parameterWAVEMODEL inparams.txt
-   Unknown, unused or multiple statements of parameterBEFRICCOEF inparams.txt
-  Warning: shallow water so long wave variance is reduced using par%nmax
